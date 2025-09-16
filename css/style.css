@@ -117,7 +117,7 @@ a {
   font-family: var(--open-sans-font);
   font-size: var(--font-size-contacts);
   font-weight: var(--regular-font);
-  padding: 3px;
+  padding: 1px;
 }
 .navbar-container .header-title-container .header-title address p:first-child {
   margin-bottom: 15px;
@@ -495,6 +495,7 @@ form .send-message input::placeholder {
 .footer-container p {
   font-family: var(--open-sans-font);
   font-weight: var(--regular-font);
+  font-size: var(--font-size-text);
   color: #fff;
 }
 .footer-container address {
@@ -504,7 +505,7 @@ form .send-message input::placeholder {
   font-style: normal;
 }
 .footer-container address p {
-  padding: 3px;
+  padding: 1px;
   font-size: var(--font-size-text);
 }
 .footer-container p {

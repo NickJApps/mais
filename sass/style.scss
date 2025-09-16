@@ -110,7 +110,7 @@ a {
                 font-family: var(--open-sans-font);
                 font-size: var(--font-size-contacts);
                 font-weight: var(--regular-font);
-                padding: 3px;
+                padding: 1px;
             }
 
             address p:first-child {
@@ -454,6 +454,7 @@ form {
     p {
         font-family: var(--open-sans-font);
         font-weight: var(--regular-font);
+        font-size: var(--font-size-text);
         color: #fff;
     }
 
@@ -464,7 +465,7 @@ form {
         font-style: normal;
 
         p {
-            padding: 3px;
+            padding: 1px;
             font-size: var(--font-size-text);
         }
     }
