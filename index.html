@@ -8,8 +8,7 @@
     <link rel="stylesheet" href="css/style.css">
     <link rel="canonical" href="https://www.mosmais.ru/">
     <title>МАИС — Агентство интеллектуальной собственности, юридические и экспертные услуги</title>
-    <meta name="description"
-        content="Агентство интеллектуальной собственности МАИС — Защита прав интеллектуальной собственности, 
+    <meta name="description" content="Агентство интеллектуальной собственности МАИС — Защита прав интеллектуальной собственности, 
         юридические услуги, оформление прав собственности, гаражная амнистия.">
 </head>
 
@@ -23,13 +22,13 @@
                         <h1>МАИС</h1>
                     </div>
                     <button class="menu-toggle" aria-label="Открыть меню">☰</button>
-                    <nav class="nav">
+                    <nav class="nav" aria-label="Основное меню">
                         <ul class="nav-items">
-                            <li><a href="#legal-practice" title="Юридическая практика">Юридическая практика</a></li>
-                            <li><a href="#expert-practice" title="Экспертная деятельность">Экспертная деятельность</a></li>
-                            <li><a href="#contact_us" title="Обратная связь">Обратная связь</a></li>
-                            <li><a href="#" class="openModal" data-modal="services-cost">Ориентировочные цены</a></li>
-                            <li><a href="#about-us" title="О нас">О нас</a></li>
+                            <li><a href="#legal-practice">Юридическая практика</a></li>
+                            <li><a href="#expert-practice">Экспертная деятельность</a></li>
+                            <li><a href="#contact_us">Обратная связь</a></li>
+                            <li><a href="#" class="openModal" data-modal="services-cost" aria-haspopup="dialog" aria-controls="services-cost">Ориентировочные цены</a></li>
+                            <li><a href="#about-us">О нас</a></li>
                         </ul>
                     </nav>
                 </div>
@@ -204,10 +203,14 @@
                     <form action="#" method="post" class="contact-form" novalidate>
                         <select id="topic" name="topic" required>
                             <option value="" selected disabled>— Выбрать тему —</option>
-                            <option value="support">Подделка подписи</option>
-                            <option value="order">Подделка печати</option>
-                            <option value="coop">Отжать гаражег</option>
-                            <option value="other">Кинуть на бабки</option>
+                            <option value="support">Интеллектуальная собственность</option>
+                            <option value="order">Потребительский экстремизм</option>
+                            <option value="coop">Защита прав потребителя</option>
+                            <option value="other">Оформление собственности</option>
+                            <option value="other">Гаражная амнистия</option>
+                            <option value="other">Исследования и экспертизы</option>
+                            <option value="other">Гражданский процесс</option>
+                            <option value="other">Иные вопросы</option>
                         </select>
 
                         <textarea id="message" name="message" rows="8" required
