@@ -98,7 +98,7 @@ a {
             position: relative;
             z-index: 1;
 
-            h1 {
+            h2 {
                 color: #ffffff;
                 font-family: var(--manrope-font);
                 font-weight: var(--medium-font);
@@ -110,6 +110,7 @@ a {
                 font-family: var(--open-sans-font);
                 font-size: var(--font-size-contacts);
                 font-weight: var(--regular-font);
+                padding: 3px;
             }
 
             address p:first-child {
@@ -468,7 +469,7 @@ form {
         }
     }
 
-    p{
+    p {
         padding: 0 25px 25px 25px;
     }
 }
@@ -606,12 +607,12 @@ form {
 
 /* Hidden scroll */
 body.modal-open {
-    overflow: hidden; 
+    overflow: hidden;
 }
 
-body.modal-open *:not(.modal, .modal *):not(script) {  
+body.modal-open *:not(.modal, .modal *):not(script) {
     pointer-events: none;
-    user-select: none;    
+    user-select: none;
 }
 
 /* Toggle button */

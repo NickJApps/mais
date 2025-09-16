@@ -106,7 +106,7 @@ a {
   position: relative;
   z-index: 1;
 }
-.navbar-container .header-title-container .header-title h1 {
+.navbar-container .header-title-container .header-title h2 {
   color: #ffffff;
   font-family: var(--manrope-font);
   font-weight: var(--medium-font);
@@ -117,6 +117,7 @@ a {
   font-family: var(--open-sans-font);
   font-size: var(--font-size-contacts);
   font-weight: var(--regular-font);
+  padding: 3px;
 }
 .navbar-container .header-title-container .header-title address p:first-child {
   margin-bottom: 15px;
