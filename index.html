@@ -1,0 +1,568 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="favicon/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="css/style.css">
+    <title>МАИС — Агентство интеллектуальной собственности, юридические и экспертные услуги</title>
+    <meta name="description"
+        content="Агентство интеллектуальной собственности МАИС — Защита прав интеллектуальной собственности, 
+        юридические услуги, оформление прав собственности, гаражная амнистия.">
+</head>
+
+<body>
+    <header id="top">
+        <div class="container">
+            <div class="navbar-container">
+                <div class="navbar">
+                    <div class="logo-container">
+                        <img src="logo/logo.svg" alt="">
+                        <h1>МАИС</h1>
+                    </div>
+                    <button class="menu-toggle" aria-label="Открыть меню">☰</button>
+                    <nav class="nav">
+                        <ul class="nav-items">
+                            <li><a href="#legal-practice">Юридическая практика</a></li>
+                            <li><a href="#expert-practice">Экспертная деятельность</a></li>
+                            <li><a href="#contact_us">Обратная связь</a></li>
+                            <li><a href="#" class="openModal" data-modal="services-cost">Ориентировочные цены</a></li>
+                            <li><a href="#about-us">О нас</a></li>
+                        </ul>
+                    </nav>
+                </div>
+                <div class="header-title-container">
+                    <div class="header-title">
+                        <h1>Агентство интеллектуальной собственности</h1>
+                        <address>
+                            <p>ООО "МАИС" 123298 Москва, ул. Маршала Бирюзова, д.8 к.3</p>
+                            <p>По общим вопросам: +7(499)728-01-83</p>
+                            <p>По юридическим вопросам: +7(903) 678-00-45</p>
+                            <p>По экспертным вопросам: +7(966)176-31-34</p>
+                            <p>Email: info@mosmais.ru</p>
+                        </address>
+                    </div>
+                    <img src="image/mais_header_image.svg" alt="header image">
+                </div>
+            </div>
+        </div>
+    </header>
+    <main>
+        <section class="container section">
+            <div class="service-container">
+                <div class="container-title">
+                    <p>Услуги</p>
+                    <h2>Юридическая практика и экспертная деятельность.</h2>
+                </div>
+                <div class="service-items">
+                    <div class="service-item" id="legal-practice">
+                        <img src="image/intellectual_property.svg" alt="">
+                        <h3 class="service-tile">Интеллектуальная собственность.</h3>
+                        <h4 class="service-description">Защита прав интеллектуальной собственности.</h4>
+                        <div class="service-detail">
+                            <button class="openModal" data-modal="intellectual-property">Подробно</button>
+                        </div>
+                    </div>
+                    <div class="service-item">
+                        <img src="image/cunsomer_extrimism.svg" alt="">
+                        <h3 class="service-tile">Потребительский экстремизм.</h3>
+                        <h4 class="service-description">Злоупотребление правами потребителя в корыстных целях.</h4>
+                        <div class="service-detail">
+                            <button type="button" class="openModal" data-modal="cunsomer-extrimism">Подробно</button>
+                        </div>
+                    </div>
+                    <div class="service-item">
+                        <img src="image/customer_protection.svg" alt="">
+                        <h3 class="service-tile">Защита прав потребителя.</h3>
+                        <h4 class="service-description">Консультации, представительство в суде, защита интересов
+                            потребителей.</h4>
+                        <div class="service-detail">
+                            <button type="button" class="openModal" data-modal="customer-protection">Подробно</button>
+                        </div>
+                    </div>
+                    <div class="service-item" id="expert-practice">
+                        <img src="image/legalization_realty.svg" alt="">
+                        <h3 class="service-tile">Недвижимость.</h3>
+                        <h4 class="service-description">Гаражная амнистия, дачная амнистия, оформление собственности
+                            через суд.</h4>
+                        <div class="service-detail">
+                            <button type="button" class="openModal" data-modal="legalization-realty">Подробно</button>
+                        </div>
+                    </div>
+                    <div class="service-item">
+                        <img src="image/civil_procedure.svg" alt="">
+                        <h3 class="service-tile">Гражданский процесс.</h3>
+                        <h4 class="service-description">Взыскание долгов, отмена судебного приказа, иные споры.</h4>
+                        <div class="service-detail">
+                            <button type="button" class="openModal" data-modal="civil-procedure">Подробно</button>
+                        </div>
+                    </div>
+                    <div class="service-item">
+                        <img src="image/expert_activity.svg" alt="">
+                        <h3 class="service-tile">Экспертная деятельность.</h3>
+                        <h4 class="service-description">Исследования (экспертизы) компьютерных устройств, носителей
+                            информации всех типов.</h4>
+                        <div class="service-detail">
+                            <button type="button" class="openModal" data-modal="expert-activity">Подробно</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="container section">
+            <div class="about-container">
+                <div class="container-title" id="about-us">
+                    <p>О нас</p>
+                    <h2>Об организации.</h2>
+                </div>
+                <div class="about-info">
+                    <p>
+                        Агентство интеллектуальной собственности «МАИС» более 20 лет успешно работает в сфере защиты
+                        прав и интересов клиентов.
+                    </p>
+                    <p>Наши основные направления включают:</p>
+                    <ul class="about-list">
+                        <li><strong>Интеллектуальная собственность</strong> — комплексная защита прав на объекты ИС.
+                        </li>
+                        <li><strong>Потребительский экстремизм</strong> — противодействие злоупотреблениям правами
+                            потребителей.</li>
+                        <li><strong>Защита прав потребителей</strong> — консультации, претензии, представительство в
+                            суде.</li>
+                        <li><strong>Недвижимость</strong> — оформление собственности, включая гаражную и дачную
+                            амнистию.</li>
+                        <li><strong>Гражданско-правовые споры</strong> — взыскание долгов, отмена судебных приказов и
+                            иные дела.</li>
+                    </ul>
+                    <p>
+                        Агентство интеллектуальной собственности «МАИС» сотрудничает с крупнейшими мировыми и
+                        российскими компаниями. Мы имеем значительный опыт борьбы с любыми видами контрафакта и
+                        эффективно представляем интересы клиентов на всех этапах — от консультаций до судебной защиты.
+                    </p>
+                    <p>
+                        Агентство интеллектуальной собственности «МАИС» на базе собственного экспертного отдела проводит
+                        все виды компьютерных исследований (изучение статистики работы программного обеспечения, поиск
+                        последних посещений ресурсов сети Интернет, поиск иной информации), а так же комплексные и
+                        искусствоведческие экспертизы.
+                    </p>
+                    <p>
+                        Агентство интеллектуальной собственности «МАИС» зарегистрировано в системе добровольной
+                        сертификации деятельности экспертов и экспертных учреждений в области судебной и несудебной
+                        экспертизы в качестве судебно-экспертного учреждения. Сертификат соответствия ОСЭ 2018/07-3273
+                        выдан «СРО судебных экспертов» (регистрационный номер в Федеральном агентстве по техническому
+                        регулированию и метрологии № РОСС RU.И1515.04ИЖБО), протокол заседания аттестационной комиссии №
+                        655 от 04.07.2018 г.
+                    </p>
+                </div>
+            </div>
+        </section>
+        <section class="container section">
+            <div class="contact-us-container" id="contact_us">
+                <div class="container-title">
+                    <p>Связаться с нами</p>
+                    <h2>Форма обратной связи.</h2>
+                </div>
+                <div class="contacts-container">
+
+                    <div class="contacts">
+
+                        <div class="legal-issues">
+                            <p>По юридическим вопросам:</p>
+                            <address>
+                                <ul>
+                                    <li>
+                                        <img src="icons/call-icon.svg" alt="Телефон">
+                                        <a href="tel:+79036780045">+7(903) 678-00-45</a>
+                                    </li>
+                                    <li>
+                                        <img src="icons/email-icon.svg" alt="E-mail">
+                                        <a href="mailto:info@mosmais.ru">info@mosmais.ru</a>
+                                    </li>
+                                </ul>
+                            </address>
+                        </div>
+
+                        <div class="expert-issues">
+                            <p>По экспертным вопросам:</p>
+                            <address>
+                                <ul>
+                                    <li>
+                                        <img src="icons/call-icon.svg" alt="Телефон">
+                                        <a href="tel:+79661763134">+7(966)176-31-34</a>
+                                    </li>
+                                    <li>
+                                        <img src="icons/email-icon.svg" alt="E-mail">
+                                        <a href="mailto:info@mosmais.ru">info@mosmais.ru</a>
+                                    </li>
+                                </ul>
+                            </address>
+                        </div>
+
+                    </div>
+
+                    <form action="#" method="post" class="contact-form" novalidate>
+                        <select id="topic" name="topic" required>
+                            <option value="" selected disabled>— Выбрать тему —</option>
+                            <option value="support">Подделка подписи</option>
+                            <option value="order">Подделка печати</option>
+                            <option value="coop">Отжать гаражег</option>
+                            <option value="other">Кинуть на бабки</option>
+                        </select>
+
+                        <textarea id="message" name="message" rows="8" required
+                            placeholder="Опишите ваш вопрос"></textarea>
+
+                        <div class="send-message">
+                            <input id="email" name="email" type="email" required placeholder="you@example.com"
+                                autocomplete="email" />
+                            <button type="submit">Отправить</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="container footer-container">
+            <address>
+                <p>ООО "МАИС" 123298 Москва, ул. Маршала Бирюзова, д.8 к.3</p>
+                <p>По общим вопросам: +7(499)728-01-83</p>
+                <p>По юридическим вопросам: +7(903) 678-00-45</p>
+                <p>По экспертным вопросам: +7(966)176-31-34</p>
+                <p>Email: info@mosmais.ru</p>
+            </address>
+            <p>Агентство интеллектуальной собственности «МАИС» зарегистрировано в системе добровольной сертификации
+                деятельности экспертов и экспертных учреждений в области судебной и несудебной экспертизы в качестве
+                судебно-экспертного учреждения. Cертификат соответствия ОСЭ 2018/07-3273 выдан «СРО судебных экспертов»
+                (регистрационный номер в Федеральном агентстве по техническому регулированию и метрологии № РОСС
+                RU.И1515.04ИЖБО), протокол заседания аттестационной комиссии № 655 от 04.07.2018 г.
+            </p>
+        </div>
+    </footer>
+
+    <!--to top button-->
+    <button class="to-top"><img src="icons/arrow-square-up.svg" alt=""></button>
+
+    <!--Modal Windows-->
+    <!-- Intellectual Property Window -->
+    <div id="intellectual-property" class="modal">
+        <div class="modal-content intellectual-property-bg">
+            <div class="modal-header">
+                <span class="close">&times;</span>
+                <h2>Для правообладателей.</h2>
+            </div>
+            <div class="modal-body">
+                <section>
+                    <h3>1. Юридическая поддержка.</h3>
+                    <ul>
+                        <li>Консультации по всем аспектам использования интеллектуальной собственности.</li>
+                        <li>Предупреждение нарушителей о возможных последствиях неправомерных действий.</li>
+                        <li>Досудебное урегулирование споров, представительство в суде.</li>
+                        <li>Представительство правообладателей в Федеральной таможенной службе (ФТС).</li>
+                    </ul>
+                </section>
+                <section>
+                    <h3>2. Аналитика и экспертиза.</h3>
+                    <ul>
+                        <li>Исследования и экспертизы на предмет признаков контрафактности.</li>
+                    </ul>
+                </section>
+                <section>
+                    <h3>3. Борьба с нарушениями на рынке.</h3>
+                    <ul>
+                        <li>Действия по пресечению нарушений при выявлении подделок продукции или незаконного
+                            использования объектов авторского права, товарных знаков, дизайна промышленного образца в
+                            розничной торговле, в том числе на маркетплейсах.</li>
+                        <li>Взаимодействие с полицией, ФТС, Роспотребнадзором для пресечения выявленных нарушений.</li>
+                        <li>Представление интересов правообладателей в уголовном и гражданском процессе, в делах об
+                            административных правонарушениях.</li>
+                    </ul>
+                </section>
+                <section>
+                    <h3>4. Интернет-пространство.</h3>
+                    <ul>
+                        <li>Поиск нарушающего контента в сети.</li>
+                        <li>Удаление или блокировка незаконного контента.</li>
+                        <li>Решение нестандартных и нетиповых задач.</li>
+                    </ul>
+                </section>
+            </div>
+        </div>
+    </div>
+
+    <!-- Cunsomer Extrimism Window -->
+    <div id="cunsomer-extrimism" class="modal">
+        <div class="modal-content cunsomer-extrimism-bg">
+            <div class="modal-header">
+                <span class="close">&times;</span>
+                <h2>Потребительский экстремизм.</h2>
+            </div>
+            <div class="modal-body">
+                <section>
+                    <h3>1. Организационные меры бизнеса.</h3>
+                    <ul>
+                        <li>Консультации по вопросам обработки претензий потребителей.</li>
+                        <li>Ведение учёта «проблемных» клиентов (чёрные списки в рамках закона).</li>
+                        <li>Повышение квалификации сотрудников для корректной работы с жалобами.</li>
+                    </ul>
+                </section>
+                <section>
+                    <h3>2. Информационная работа.</h3>
+                    <ul>
+                        <li>Разъяснение прав и обязанностей потребителей и бизнеса.</li>
+                        <li>Пропаганда ответственного потребительского поведения.</li>
+                        <li>Публичное освещение случаев злоупотребления потребительскими правами.</li>
+                    </ul>
+                </section>
+                <section>
+                    <h3>3. Представление интересов организаций в суде.</h3>
+                    <ul>
+                        <li>Представление интересов изготовителей, продавцов, импортеров, уполномоченных организаций в
+                            суде.
+                        </li>
+                        <li>Выбор оптимальной стратегии защиты, прогноз и учет всех возможных рисков.</li>
+                    </ul>
+                </section>
+            </div>
+        </div>
+    </div>
+
+    <!-- Cunsomer Protection Window -->
+    <div id="customer-protection" class="modal">
+        <div class="modal-content customer-protection-bg">
+            <div class="modal-header">
+                <span class="close">&times;</span>
+                <h2>Права потребителя.</h2>
+            </div>
+            <div class="modal-body">
+                <section>
+                    <h3>1. Досудебное урегулирование споров.</h3>
+                    <ul>
+                        <li>Устные и письменные консультации.</li>
+                        <li>Определение лица, отвечающего за недостатки товара или услуги.</li>
+                        <li>Подготовка и направление претензий.</li>
+                        <li>Участие в переговорах с изготовителями, продавцами, импортерами, уполномоченными
+                            организациями,
+                            исполнителями, поставщиками.</li>
+                    </ul>
+                </section>
+                <section>
+                    <h3>2. Судебная защита.</h3>
+                    <ul>
+                        <li>Подготовка искового заявления.</li>
+                        <li>Представление интересов потребителя в суде.</li>
+                        <li>Обжалование судебных решений.</li>
+                        <li>Представительство в апелляционной и кассационной инстанциях.</li>
+                    </ul>
+                </section>
+                <section>
+                    <h3>3. Исполнение судебных решений.</h3>
+                    <ul>
+                        <li>Контроль за своевременным исполнением судебного акта.</li>
+                        <li>Взыскание присуждённых сумм.</li>
+                        <li>Решение вопросов, связанных с исполнительным производством.</li>
+                    </ul>
+                </section>
+                <section>
+                    <h3>4. Информационная и консультационная поддержка.</h3>
+                    <ul>
+                        <li>Разъяснение прав и обязанностей потребителей.</li>
+                        <li>Помощь в оценке правомерности требований и действий контрагентов.</li>
+                        <li>Подготовка рекомендаций по защите прав.</li>
+                        <li>Информационное сопровождение на всех стадиях разрешения спора.</li>
+                    </ul>
+                </section>
+            </div>
+        </div>
+    </div>
+
+    <!-- Legalization realty -->
+    <div id="legalization-realty" class="modal">
+        <div class="modal-content legalization-realty-bg">
+            <div class="modal-header">
+                <span class="close">&times;</span>
+                <h2>Недвижимость.</h2>
+            </div>
+            <div class="modal-body">
+                <section>
+                    <h3>1. Земельные вопросы</h3>
+                    <ul>
+                        <li>Оформление земельных участков в собственность.</li>
+                        <li>Разрешение споров о границах земельных участков.</li>
+                    </ul>
+                </section>
+                <section>
+                    <h3>2. Недвижимость и регистрация</h3>
+                    <ul>
+                        <li>Регистрация прав собственности в Росреестре.</li>
+                        <li>Оформление наследуемой недвижимости, в том числе в судебном порядке.</li>
+                    </ul>
+                </section>
+                <section>
+                    <h3>3. Приватизация и социальное жильё</h3>
+                    <ul>
+                        <li>Приватизация жилых помещений.</li>
+                        <li>Продление и оформление договора социального найма.</li>
+                    </ul>
+                </section>
+                <section>
+                    <h3>4. Судебные споры</h3>
+                    <ul>
+                        <li>Восстановление утраченных документов на недвижимость.</li>
+                        <li>Споры о праве собственности между наследниками.</li>
+                        <li>Иски о признании права собственности.</li>
+                    </ul>
+                </section>
+                <section>
+                    <h3>5. Взаимодействие с государственными органами</h3>
+                    <ul>
+                        <li>Подготовка документов для МФЦ, Росреестра, БТИ.</li>
+                        <li>Обжалование отказов госорганов в регистрации права собственности.</li>
+                    </ul>
+                </section>
+            </div>
+        </div>
+    </div>
+
+    <!-- Civil Procedure Window -->
+    <div id="civil-procedure" class="modal">
+        <div class="modal-content civil-procedure-bg">
+            <div class="modal-header">
+                <span class="close">&times;</span>
+                <h2>Гражданско-правовые споры.</h2>
+            </div>
+            <div class="modal-body">
+                <section>
+                    <h3>1. Долговые обязательства</h3>
+                    <ul>
+                        <li>Взыскание задолженности по распискам и договорам.</li>
+                        <li>Взыскание неустоек и процентов за пользование чужими денежными средствами.</li>
+                        <li>Споры по договорам займа, аренды, подряда, купли-продажи.</li>
+                    </ul>
+                </section>
+                <section>
+                    <h3>2. Судебные приказы и решения</h3>
+                    <ul>
+                        <li>Отмена судебного приказа.</li>
+                        <li>Обжалование решений и определений суда.</li>
+                        <li>Приостановление или отсрочка исполнения судебного акта.</li>
+                    </ul>
+                </section>
+                <section>
+                    <h3>3. Имущественные споры</h3>
+                    <ul>
+                        <li>Споры о праве собственности на движимое и недвижимое имущество.</li>
+                        <li>Устранение нарушений права собственности (например, незаконное пользование имуществом).</li>
+                    </ul>
+                </section>
+                <section>
+                    <h3>4. Обязательства и договорные отношения.</h3>
+                    <ul>
+                        <li>Расторжение и изменение договоров.</li>
+                        <li>Взыскание убытков, компенсации морального вреда.</li>
+                        <li>Признание сделок недействительными.</li>
+                    </ul>
+                </section>
+                <section>
+                    <h3>5. Иные гражданско-правовые споры</h3>
+                    <ul>
+                        <li>Наследственные споры.</li>
+                        <li>Возмещение вреда имуществу.</li>
+                    </ul>
+                </section>
+            </div>
+        </div>
+    </div>
+
+    <!--Expert Activity Window-->
+    <div id="expert-activity" class="modal">
+        <div class="modal-content expert-activity-bg">
+            <div class="modal-header">
+                <span class="close">&times;</span>
+                <h2>Экспертная деятельность.</h2>
+            </div>
+            <div class="modal-body">
+                <section>
+                    <h3>1. Компьютерно-технические исследования.</h3>
+                    <ul>
+                        <li>Экспертиза ПК, жёстких дисков и иных носителей информации. </li>
+                        <li>Восстановление файлов, анализ работы программ и систем.</li>
+                    </ul>
+                </section>
+                <section>
+                    <h3>2. Программное обеспечение и интернет-активность.</h3>
+                    <ul>
+                        <li>Поиск и исследование ПО по заданным критериям.</li>
+                        <li>Анализ P2P-сетей, интернет-активности и связей с аффилированными лицами.</li>
+                    </ul>
+                </section>
+                <section>
+                    <h3>3. Специализированные экспертизы.</h3>
+                    <ul>
+                        <li>Культурологические и искусствоведческие экспертизы.</li>
+                    </ul>
+                </section>
+                <section>
+                    <h3>4. Экспертиза объектов авторского права.</h3>
+                    <ul>
+                        <li>Проверка наличия признаков подделки или незаконного использования товарного знака.</li>
+                        <li>Экспертиза упаковки, маркировки и документации.</li>
+                        <li>Проверка носителей информации на предмет нелицензионных копий.</li>
+                        <li>Установление фактов незаконного воспроизведения и распространения.</li>
+                    </ul>
+                </section>
+            </div>
+        </div>
+    </div>
+
+    <!-- Services Сost Window -->
+    <div id="services-cost" class="modal">
+        <div class="modal-content price-modal">
+            <div class="modal-header">
+                <span class="close">&times;</span>
+                <h2>Стоимость юридиеских услуг. <br> Москва и Московская область.</h2>
+            </div>
+            <div class="modal-body">
+                <table class="price-table">
+                    <thead>
+                        <tr>
+                            <th>Услуга</th>
+                            <th>Стоимость (от)</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Устные консультации</td>
+                            <td>2 000 ₽</td>
+                        </tr>
+                        <tr>
+                            <td>Письменные консультации</td>
+                            <td>3 500 ₽</td>
+                        </tr>
+                        <tr>
+                            <td>Составление документов (в т.ч. экспертных заключений)</td>
+                            <td>5 000 ₽</td>
+                        </tr>
+                        <tr>
+                            <td>Защита по делам об административном правонарушении</td>
+                            <td>25 000 ₽</td>
+                        </tr>
+                        <tr>
+                            <td>Представительство по гражданским делам</td>
+                            <td>35 000 ₽</td>
+                        </tr>
+                        <tr>
+                            <td>Вознаграждение по результатам имущественных споров</td>
+                            <td>от 17%</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <!--JS -->
+    <script src="js/script.js"></script>
+</body>
+
+</html>
