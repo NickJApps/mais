@@ -182,6 +182,9 @@ a {
   -webkit-transition: width 0.1s linear;
   transition: width 0.1s linear;
 }
+.nav-items .nav-item a:focus {
+  color: #ddd;
+}
 
 /* section */
 .section {
@@ -381,12 +384,20 @@ form {
           align-items: center;
   margin-top: 50px;
 }
+form label {
+  margin: 20px 0 10px 0;
+  color: #fff;
+  font-family: var(--open-sans-font);
+  font-weight: var(--regular-font);
+  font-size: var(--font-size-text);
+  text-align: left;
+  width: 50%;
+}
 form select option {
   font-family: var(--open-sans-font);
   font-weight: var(--regular-font);
 }
 form select {
-  margin: 30px 0 20px 0;
   width: 50%;
   background: transparent;
   border: none;
@@ -410,27 +421,27 @@ form textarea {
 form textarea::-webkit-input-placeholder {
   font-family: var(--open-sans-font);
   font-size: 12px;
-  padding: 10px;
+  padding: 5px;
 }
 form textarea::-moz-placeholder {
   font-family: var(--open-sans-font);
   font-size: 12px;
-  padding: 10px;
+  padding: 5px;
 }
 form textarea:-ms-input-placeholder {
   font-family: var(--open-sans-font);
   font-size: 12px;
-  padding: 10px;
+  padding: 5px;
 }
 form textarea::-ms-input-placeholder {
   font-family: var(--open-sans-font);
   font-size: 12px;
-  padding: 10px;
+  padding: 5px;
 }
 form textarea::placeholder {
   font-family: var(--open-sans-font);
   font-size: 12px;
-  padding: 10px;
+  padding: 5px;
 }
 form .send-message {
   width: 50%;
@@ -736,6 +747,9 @@ body.modal-open *:not(.modal, .modal *):not(script) {
 }
 @media (max-width: 750px) {
   form textarea {
+    width: 70%;
+  }
+  form label {
     width: 70%;
   }
   form select {
