@@ -15,6 +15,11 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         "other"   => "Иные вопросы"
     ];
 
+    // empty field 
+    if (empty($topic_code) || empty($email) || empty($message)) {
+        echo "<script>alert('Ошибка: заполните все поля!'); window.history.back();</script>";
+        exit;
+    }
 
     $topic = $topics[$topic_code] ?? "Неизвестная тема";
 

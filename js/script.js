@@ -52,3 +52,17 @@ window.addEventListener("click", (e) => {
 menuToggle.addEventListener('click', () => {
   nav.classList.toggle('active');
 });
+
+/* Form valid*/
+
+document.getElementById("contact-form").addEventListener("submit", function(e) {
+    let topic   = document.getElementById("topic").value.trim();
+    let email   = document.getElementById("email").value.trim();
+    let message = document.getElementById("message").value.trim();
+
+    if (!topic || !email || !message) {
+        e.preventDefault();
+        alert("Пожалуйста, заполните все поля!");
+        return false;
+    }
+});
