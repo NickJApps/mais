@@ -432,7 +432,6 @@ form {
         button {
             width: 30%;
             cursor: pointer;
-            background: #65E4A3;
             font-family: var(--open-sans-font);
             font-weight: var(--regular-font);
             font-size: var(--font-size-text);
@@ -721,19 +720,24 @@ body.modal-open *:not(.modal, .modal *):not(script) {
         width: 70%;
     }
 
-    form label{
+    form label {
         width: 70%;
     }
 
     form select {
         width: 70%;
     }
+    
+    form input{
+        width: 100%;
+    }
 
     form .send-message {
         display: flex;
         flex-direction: column;
         width: 70%;
-
+        align-items: flex-end;
+        
         button {
             padding: 6px 0 6px 0;
         }
