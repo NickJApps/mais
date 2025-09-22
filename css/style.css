@@ -328,7 +328,8 @@ a {
 
 /* contacts */
 .contacts-container .contacts .legal-issues,
-.contacts-container .contacts .expert-issues {
+.contacts-container .contacts .expert-issues,
+.contacts-container .contacts .general-contact {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -343,27 +344,33 @@ a {
 .contacts-container .contacts .legal-issues address ul li,
 .contacts-container .contacts .legal-issues p,
 .contacts-container .contacts .expert-issues address ul li,
-.contacts-container .contacts .expert-issues p {
+.contacts-container .contacts .expert-issues p,
+.contacts-container .contacts .general-contact address ul li,
+.contacts-container .contacts .general-contact p {
   font-family: var(--open-sans-font);
   font-size: var(--font-size-contacts);
 }
 .contacts-container .contacts .legal-issues p,
-.contacts-container .contacts .expert-issues p {
+.contacts-container .contacts .expert-issues p,
+.contacts-container .contacts .general-contact p {
   font-weight: var(--bold-font);
 }
 .contacts-container .contacts .legal-issues address ul li,
-.contacts-container .contacts .expert-issues address ul li {
+.contacts-container .contacts .expert-issues address ul li,
+.contacts-container .contacts .general-contact address ul li {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   margin: 5px 0 5px 0;
 }
 .contacts-container .contacts .legal-issues address ul li a,
-.contacts-container .contacts .expert-issues address ul li a {
+.contacts-container .contacts .expert-issues address ul li a,
+.contacts-container .contacts .general-contact address ul li a {
   font-style: normal;
 }
 .contacts-container .contacts .legal-issues address ul li img,
-.contacts-container .contacts .expert-issues address ul li img {
+.contacts-container .contacts .expert-issues address ul li img,
+.contacts-container .contacts .general-contact address ul li img {
   margin-right: 10px;
 }
 .contacts-container .contacts .legal-issues {
